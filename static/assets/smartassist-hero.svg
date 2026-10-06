@@ -1,0 +1,122 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1600 900"
+  preserveAspectRatio="xMidYMid slice"
+>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050505"/>
+      <stop offset="100%" stop-color="#171717"/>
+    </linearGradient>
+
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8FA000"/>
+      <stop offset="42%" stop-color="#D4F000"/>
+      <stop offset="70%" stop-color="#E8FF19"/>
+      <stop offset="100%" stop-color="#9FB500"/>
+    </linearGradient>
+
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <ellipse
+    cx="320"
+    cy="670"
+    rx="440"
+    ry="150"
+    fill="#D4F000"
+    opacity=".10"
+    filter="url(#blur)"
+  />
+
+  <ellipse
+    cx="1310"
+    cy="200"
+    rx="380"
+    ry="160"
+    fill="#D4F000"
+    opacity=".08"
+    filter="url(#blur)"
+  />
+
+  <path
+    d="
+      M-180 720
+      C120 470 300 460 460 560
+      C650 680 700 790 930 650
+      C1070 562 1170 470 1450 505
+      L1600 530
+      L1600 900
+      L-180 900
+      Z
+    "
+    fill="url(#lime)"
+    opacity=".94"
+  />
+
+  <path
+    d="
+      M-100 820
+      C230 590 420 630 575 710
+      C770 810 930 760 1050 660
+      C1190 542 1370 510 1700 570
+      L1700 900
+      L-100 900
+      Z
+    "
+    fill="#070707"
+    opacity=".72"
+  />
+
+  <path
+    d="
+      M990 90
+      C1160 185 1290 180 1430 90
+      C1500 45 1560 18 1650 0
+      L1650 320
+      C1520 354 1410 335 1325 290
+      C1200 224 1110 195 950 225
+      Z
+    "
+    fill="url(#lime)"
+    opacity=".72"
+  />
+
+  <path
+    d="
+      M820 780
+      C1000 610 1130 560 1270 620
+      C1390 670 1490 760 1700 650
+      L1700 870
+      C1470 920 1300 845 1170 790
+      C1040 736 950 748 820 860
+      Z
+    "
+    fill="#D4F000"
+    opacity=".40"
+    filter="url(#soft)"
+  />
+
+  <ellipse
+    cx="800"
+    cy="500"
+    rx="170"
+    ry="170"
+    fill="#D4F000"
+    opacity=".10"
+    filter="url(#blur)"
+  />
+
+  <circle cx="235" cy="220" r="13" fill="#D4F000" opacity=".85"/>
+  <circle cx="1370" cy="480" r="9" fill="#E8FF19" opacity=".68"/>
+  <circle cx="1120" cy="160" r="6" fill="#D4F000" opacity=".70"/>
+  <circle cx="430" cy="390" r="7" fill="#D4F000" opacity=".55"/>
+</svg>

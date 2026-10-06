@@ -1,0 +1,62 @@
+[
+  {
+    "name": "greeting",
+    "description": "User greets the assistant.",
+    "examples": ["hello", "hi there", "hey", "good morning", "good evening", "how are you", "hi SmartAssist", "hello there", "hey assistant", "can you help me"]
+  },
+  {
+    "name": "goodbye",
+    "description": "User ends the conversation.",
+    "examples": ["bye", "goodbye", "see you later", "talk to you later", "that's all", "have a nice day", "thanks bye", "I am done"]
+  },
+  {
+    "name": "thanks",
+    "description": "User expresses gratitude.",
+    "examples": ["thanks", "thank you", "thanks a lot", "I appreciate it", "that helped", "many thanks", "great thank you", "thank you so much"]
+  },
+  {
+    "name": "help",
+    "description": "User asks what the chatbot can do.",
+    "examples": ["what can you do", "how can you help me", "show me what you support", "what services do you provide", "what can I ask you", "help me understand your features", "what are you able to do"]
+  },
+  {
+    "name": "business_hours",
+    "description": "User asks about support or business hours.",
+    "examples": ["when are you open", "what are your working hours", "when is customer support available", "are you open on saturday", "what time do you close", "when can I contact support", "what are your support hours"]
+  },
+  {
+    "name": "contact_support",
+    "description": "User asks how to contact support.",
+    "examples": ["how do I contact support", "give me customer care details", "I need to talk to support", "what is your support email", "how can I reach customer service", "where can I get help from a person", "connect me to support"]
+  },
+  {
+    "name": "pricing",
+    "description": "User asks about plans or prices.",
+    "examples": ["how much does it cost", "what are your prices", "tell me about your plans", "how much is premium", "what do you charge", "what is the subscription price", "show me pricing"]
+  },
+  {
+    "name": "refund",
+    "description": "User asks about refunds or refund eligibility.",
+    "examples": ["I want a refund", "how can I get my money back", "what is your refund policy", "can I request a refund", "I need to return my payment", "when can I get a refund", "do you offer refunds"]
+  },
+  {
+    "name": "payment_methods",
+    "description": "User asks which payment methods are supported.",
+    "examples": ["do you accept UPI", "what payment methods do you take", "can I pay by card", "do you support credit cards", "can I use net banking", "what ways can I pay", "is UPI available"]
+  },
+  {
+    "name": "order_status",
+    "description": "User wants to track or check an order.",
+    "examples": ["where is my order", "track my package", "what is my order status", "has my order shipped", "when will my package arrive", "can you check my delivery", "I want to track an order"]
+  },
+  {
+    "name": "cancel_order",
+    "description": "User wants to cancel an order.",
+    "examples": ["I want to cancel my order", "can I cancel my order", "please cancel my purchase", "how do I cancel an order", "I need to stop my order", "cancel order for me", "can my order be cancelled"]
+  },
+  {
+    "name": "technical_issue",
+    "description": "User reports a website, app, login, or technical problem.",
+    "examples": ["I cannot log in", "the website is not working", "the app keeps crashing", "I have a technical problem", "my account login fails", "the page is broken", "I am getting an error"]
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "company": "NovaCart",
+  "business_hours": "NovaCart support is available Monday to Saturday, 9:00 AM to 6:00 PM IST. The support desk is closed on Sunday.",
+  "support_contact": "You can contact NovaCart support at support@novacart.example or through the Help Center in the application.",
+  "pricing": {
+    "plans": "Starter at ₹0/month, Plus at ₹299/month, and Pro at ₹799/month",
+    "note": "The pricing shown here is demo data created for the internship project."
+  },
+  "refund_policy": "Demo refund policy: eligible refund requests can be submitted within 7 days of purchase. Refund approval depends on the order and payment status. This chatbot only explains the process and does not execute refunds.",
+  "payment_methods": "NovaCart's demo checkout supports UPI, credit cards, debit cards, and net banking.",
+  "technical_support": {
+    "message": "For login or website issues, first refresh the page, verify your internet connection, and try again. If the issue continues, contact support with the error message and the steps that caused it."
+  }
+}

@@ -1,0 +1,39 @@
+message,expected,predicted,supported,pass,response
+Hey there,greeting,greeting,True,True,Hello! How can I assist you with NovaCart today?
+Good morning SmartAssist,greeting,greeting,True,True,Good morning! How can I assist you today?
+"Hi, I need some help",greeting,help,True,False,Sure! How can I assist you today?
+"That's all, bye",goodbye,goodbye,True,True,"Thank you for using NovaCart! If you need anything else, feel free to reach out. Have a great day!"
+Talk to you later,goodbye,goodbye,True,True,"Sure! If you need anything else, just let me know. Have a great day!"
+Thanks a lot,thanks,thanks,True,True,"You're welcome! If you need anything else, just let me know."
+I really appreciate your help,thanks,thanks,True,True,"You're welcome! If you need anything else, just let me know."
+What can you help me with?,help,help,True,True,"I can assist you with NovaCart support topics such as business hours, contact details, pricing, refunds, payment methods, order status, cancellations, and technical issues. How can I help you today?"
+Show me what you can do,help,unknown,False,False,"I'm currently designed to help with NovaCart pricing, orders, refunds, payments, support, business hours, and technical issues. Please ask me something related to one of those areas."
+When is your support team available?,business_hours,business_hours,True,True,"NovaCart support is available Monday to Saturday, 9:00 AM to 6:00 PM IST. The support desk is closed on Sunday."
+Are you open on Saturday?,business_hours,business_hours,True,True,"NovaCart support is available Monday to Saturday, 9:00 AM to 6:00 PM IST. The support desk is closed on Sunday."
+What time do you start work?,business_hours,business_hours,True,True,"NovaCart support is available Monday to Saturday, 9:00 AM to 6:00 PM IST. The support desk is closed on Sunday."
+How can I get in touch with customer support?,contact_support,contact_support,True,True,You can contact NovaCart support at support@novacart.example or through the Help Center in the application.
+Where can I contact NovaCart?,contact_support,contact_support,True,True,You can contact NovaCart support at support@novacart.example or through the Help Center in the application.
+How much does your service cost?,pricing,pricing,True,True,"Starter at ₹0/month, Plus at ₹299/month, and Pro at ₹799/month. The pricing shown here is demo data created for the internship project."
+Tell me about your pricing plans,pricing,pricing,True,True,"Starter at ₹0/month, Plus at ₹299/month, and Pro at ₹799/month. The pricing shown here is demo data created for the internship project."
+What will I have to pay?,pricing,pricing,True,True,"Starter at ₹0/month, Plus at ₹299/month, and Pro at ₹799/month. The pricing shown here is demo data created for the internship project."
+I want my money back,refund,refund,True,True,Demo refund policy: eligible refund requests can be submitted within 7 days of purchase. Refund approval depends on the order and payment status. This chatbot only explains the process and does not execute refunds.
+Can I get a refund for my purchase?,refund,refund,True,True,Demo refund policy: eligible refund requests can be submitted within 7 days of purchase. Refund approval depends on the order and payment status. This chatbot only explains the process and does not execute refunds.
+What is your refund policy?,refund,refund,True,True,Demo refund policy: eligible refund requests can be submitted within 7 days of purchase. Refund approval depends on the order and payment status. This chatbot only explains the process and does not execute refunds.
+Can I pay using UPI?,payment_methods,payment_methods,True,True,"NovaCart's demo checkout supports UPI, credit cards, debit cards, and net banking."
+Do you accept debit cards?,payment_methods,payment_methods,True,True,"NovaCart's demo checkout supports UPI, credit cards, debit cards, and net banking."
+What payment options do you offer?,payment_methods,payment_methods,True,True,"NovaCart's demo checkout supports UPI, credit cards, debit cards, and net banking."
+Where is my package ORD10001?,order_status,order_status,True,True,Order ORD10001 is currently processing. Expected delivery: 12 October 2026.
+Can you check ORD10002 for me?,order_status,order_status,True,True,Order ORD10002 is currently shipped. Expected delivery: 9 October 2026.
+What's happening with my order ORD10003?,order_status,order_status,True,True,Order ORD10003 is currently out for delivery. Expected delivery: 5 October 2026.
+I want to cancel order ORD10001,cancel_order,cancel_order,True,True,Order ORD10001 is eligible for cancellation in this demo. Please contact support to complete the request.
+Can I stop my order ORD10002?,cancel_order,cancel_order,True,True,"Order ORD10002 is already shipped, so cancellation is not available in this demo. Please contact support for the next available option."
+I can't log into my account,technical_issue,technical_issue,True,True,"For login or website issues, first refresh the page, verify your internet connection, and try again. If the issue continues, contact support with the error message and the steps that caused it."
+The checkout page is not working,technical_issue,technical_issue,True,True,"For login or website issues, first refresh the page, verify your internet connection, and try again. If the issue continues, contact support with the error message and the steps that caused it."
+Something is broken on the website,technical_issue,technical_issue,True,True,"For login or website issues, first refresh the page, verify your internet connection, and try again. If the issue continues, contact support with the error message and the steps that caused it."
+Write a Python game for me,unknown,unknown,False,True,"I'm currently designed to help with NovaCart pricing, orders, refunds, payments, support, business hours, and technical issues. Please ask me something related to one of those areas."
+Explain quantum mechanics,unknown,unknown,False,True,"I'm currently designed to help with NovaCart pricing, orders, refunds, payments, support, business hours, and technical issues. Please ask me something related to one of those areas."
+Who won the cricket match yesterday?,unknown,unknown,False,True,"I'm currently designed to help with NovaCart pricing, orders, refunds, payments, support, business hours, and technical issues. Please ask me something related to one of those areas."
+Tell me a joke about physics,unknown,unknown,False,True,"I'm currently designed to help with NovaCart pricing, orders, refunds, payments, support, business hours, and technical issues. Please ask me something related to one of those areas."
+Where is my order?,order_status,order_status,True,True,"Sure. Please provide your NovaCart order ID, for example ORD10001."
+ORD10001,order_status,order_status,True,True,Order ORD10001 is currently processing. Expected delivery: 12 October 2026.
+Can I cancel it?,cancel_order,cancel_order,True,True,Order ORD10001 is eligible for cancellation in this demo. Please contact support to complete the request.

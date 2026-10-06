@@ -1,0 +1,611 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="theme-color"
+    content="#F0F0EC"
+  >
+
+  <meta
+    name="description"
+    content="SmartAssist — intelligent AI customer support powered by Groq."
+  >
+
+  <title>SmartAssist — AI Support</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='css/style.css') }}"
+  >
+
+</head>
+
+
+<body>
+
+  <div
+    class="app"
+    id="appRoot"
+  >
+
+    <div class="grain"></div>
+
+
+    <!-- =====================================================
+         NAVIGATION
+    ====================================================== -->
+
+    <header class="nav">
+
+      <a
+        href="#"
+        class="brand"
+        aria-label="SmartAssist home"
+      >
+
+        <div class="brand-logo">
+
+          <span class="logo-glow"></span>
+          <span class="logo-core"></span>
+
+        </div>
+
+
+        <div class="brand-copy">
+
+          <strong>
+            SmartAssist
+          </strong>
+
+          <span>
+            AI Support Assistant
+          </span>
+
+        </div>
+
+      </a>
+
+
+      <div class="nav-middle">
+
+        <span class="online-status">
+
+          <i></i>
+
+          ONLINE
+
+        </span>
+
+      </div>
+
+
+      <div class="nav-right">
+
+        <button
+          id="clearChat"
+          class="new-chat-button"
+          type="button"
+        >
+          New conversation
+        </button>
+
+      </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN PAGE
+    ====================================================== -->
+
+    <main class="page">
+
+
+      <!-- ===================================================
+           INTRO
+      ==================================================== -->
+
+      <section class="intro">
+
+        <div class="intro-eyebrow">
+
+          <span class="intro-dot"></span>
+
+          NOVACART · CUSTOMER SUPPORT
+
+        </div>
+
+
+        <h1>
+
+          Built to understand
+
+          <span>
+            every question.
+          </span>
+
+        </h1>
+
+
+        <p>
+
+          Ask naturally. SmartAssist understands
+          your questions, remembers context, and
+          helps you get things done.
+
+        </p>
+
+
+        <div class="intro-pills">
+
+          <span class="intro-pill accent">
+
+            <b>✦</b>
+
+            LLM powered
+
+          </span>
+
+
+          <span class="intro-pill">
+
+            12 supported intents
+
+          </span>
+
+
+          <span class="intro-pill">
+
+            Multi-turn context
+
+          </span>
+
+        </div>
+
+      </section>
+
+
+      <!-- ===================================================
+           HERO VISUAL
+      ==================================================== -->
+
+      <section class="visual-section">
+
+        <div class="hero-visual">
+
+          <div class="visual-image"></div>
+
+          <div class="visual-overlay"></div>
+
+
+          <!-- AI ORB -->
+
+          <div class="ai-system">
+
+            <div class="orb-ring ring-1"></div>
+            <div class="orb-ring ring-2"></div>
+            <div class="orb-ring ring-3"></div>
+
+
+            <div class="ai-orb">
+
+              <div class="orb-shine"></div>
+
+              <div class="orb-glow glow-a"></div>
+
+              <div class="orb-glow glow-b"></div>
+
+              <div class="orb-core"></div>
+
+            </div>
+
+          </div>
+
+
+          <!-- =================================================
+               FEATURE CARD 1
+          ================================================== -->
+
+          <div class="info-card card-one">
+
+            <div class="card-value">
+              12
+            </div>
+
+            <div class="card-text">
+
+              <strong>
+                Supported intents
+              </strong>
+
+              <span>
+                Customer support
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- =================================================
+               FEATURE CARD 2
+          ================================================== -->
+
+          <div class="info-card card-two">
+
+            <div class="card-symbol">
+              ↗
+            </div>
+
+            <div class="card-text">
+
+              <strong>
+                Multi-turn
+              </strong>
+
+              <span>
+                Context memory
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- =================================================
+               FEATURE CARD 3
+          ================================================== -->
+
+          <div class="info-card card-three">
+
+            <div class="card-symbol lime">
+              ✦
+            </div>
+
+            <div class="card-text">
+
+              <strong>
+                Groq LLM
+              </strong>
+
+              <span>
+                Fast AI responses
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- =================================================
+               INSIGHT PANEL
+          ================================================== -->
+
+          <div class="insight-card">
+
+            <div class="insight-header">
+
+              <span>
+                SMARTASSIST
+              </span>
+
+              <span class="live-label">
+                LIVE
+              </span>
+
+            </div>
+
+
+            <div class="insight-title">
+
+              <span>
+                Natural language
+              </span>
+
+              <strong>
+                understood.
+              </strong>
+
+            </div>
+
+
+            <div class="signal">
+
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+              <i></i>
+
+            </div>
+
+          </div>
+
+
+          <div class="visual-label">
+
+            <span>
+              AI SUPPORT
+            </span>
+
+            <span>
+              01 / 01
+            </span>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- ===================================================
+           CHAT CONVERSATION
+      ==================================================== -->
+
+      <section
+        class="conversation"
+        id="chatArea"
+        aria-label="Conversation"
+      >
+
+        <div
+          class="conversation-backdrop"
+          aria-hidden="true"
+        ></div>
+
+
+        <div
+          class="messages"
+          id="messages"
+          aria-live="polite"
+        >
+
+          <article class="message assistant-message">
+
+            <div class="message-meta">
+
+              <div class="message-mini-orb">
+
+                <span></span>
+
+              </div>
+
+              <span>
+                SmartAssist
+              </span>
+
+              <time>
+                now
+              </time>
+
+            </div>
+
+
+            <div class="message-bubble">
+
+              Hello! I'm SmartAssist.
+              Ask me about orders, pricing,
+              payments, refunds, support,
+              business hours, or technical issues.
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </section>
+
+
+      <!-- ===================================================
+           QUICK ACTIONS
+      ==================================================== -->
+
+      <section
+        class="quick-actions"
+        id="quickActions"
+      >
+
+        <button
+          type="button"
+          data-message="What are your working hours?"
+        >
+
+          <span>
+            Working hours
+          </span>
+
+          <b>
+            ↗
+          </b>
+
+        </button>
+
+
+        <button
+          type="button"
+          data-message="What payment methods do you accept?"
+        >
+
+          <span>
+            Payment methods
+          </span>
+
+          <b>
+            ↗
+          </b>
+
+        </button>
+
+
+        <button
+          type="button"
+          data-message="Where is my order ORD10001?"
+        >
+
+          <span>
+            Track my order
+          </span>
+
+          <b>
+            ↗
+          </b>
+
+        </button>
+
+
+        <button
+          type="button"
+          data-message="What are your plans and prices?"
+        >
+
+          <span>
+            Pricing
+          </span>
+
+          <b>
+            ↗
+          </b>
+
+        </button>
+
+      </section>
+
+
+    </main>
+
+
+    <!-- =====================================================
+         COMPOSER
+    ====================================================== -->
+
+    <footer class="composer-wrapper">
+
+      <div class="composer-title">
+        ASK SMARTASSIST
+      </div>
+
+
+      <div class="composer-shell">
+
+        <form
+          id="chatForm"
+          class="composer"
+        >
+
+          <textarea
+            id="messageInput"
+            rows="1"
+            maxlength="2000"
+            autocomplete="off"
+            spellcheck="true"
+            placeholder="Ask anything..."
+            aria-label="Message SmartAssist"
+          ></textarea>
+
+
+          <button
+            id="sendButton"
+            class="send-button"
+            type="submit"
+            aria-label="Send message"
+          >
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              aria-hidden="true"
+            >
+
+              <path d="M12 18V6"></path>
+
+              <path d="M7 11L12 6L17 11"></path>
+
+            </svg>
+
+          </button>
+
+        </form>
+
+
+        <div class="composer-footer">
+
+          <span>
+
+            Powered by
+            <strong>Groq</strong>
+
+          </span>
+
+          <span id="charCount">
+            0 / 2000
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <div class="composer-note">
+
+        SmartAssist can make mistakes.
+        Verify important information.
+
+      </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         CORNER MARK
+    ====================================================== -->
+
+    <div class="corner-brand">
+
+      <span>
+        NOVACART
+      </span>
+
+      <span>
+        CUSTOMER SUPPORT
+      </span>
+
+    </div>
+
+
+  </div>
+
+
+  <script
+    src="{{ url_for('static', filename='js/script.js') }}"
+  ></script>
+
+</body>
+
+</html>
